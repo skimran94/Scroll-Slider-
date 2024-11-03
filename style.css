@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+}
+
+.container {
+    margin: 0px;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+.contents {
+    text-align: justify;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    background-color: rgb(255, 0, 0)!important ;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.link {
+    display: block;
+    margin-left: -20px;
+    margin-bottom: 5px;
+    background-color: lightyellow;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    transition-property:top;
+    transition-timing-function: linear;
+    transition-duration: 2s;
+
+}
+
+
